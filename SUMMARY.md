@@ -1,23 +1,30 @@
 # Summary
 
-## Part I
-* [Introduction](README.md)
-* [Writing is nice](part1/writing.md)
-* [GitBook is nice](part1/gitbook.md)
+## Part I 概述
+* [简介](README.md)
+* [V1.4变化](part1/changes.md)
+* [发行手记](part1/release_note.md)
+* [重要概念](part1/key_concept.md)
+* [开始](part1/get_started.md)
 
-## Part II
-* [We love feedback](part2/feedback_please.md)
-* [Better tools for authors](part2/better_tools.md)
+## Part II 开发应用
+* [场景](part2/scenario.md)
+* [分析](part2/analysis.md)
+* [流程和数据设计](part2/process_data.md)
+* [智能合约处理](part2/smart_contract_process.md)
+* [应用程序](part2/application.md)
+* [接口](part2/interface.md)
+* [应用程序设计要素](part2/app_design_elements.md)
 
-## Tutorials教程指南
-* [Hello Fabric第一个应用](tutorials/helloworld.md)
-* [建立第一个网络](tutorials/build_first_network.md)
-* [向通道添加一个组织](tutorials/add_org.md)
-* [升级网络组件](tutorials/upgrade_network.md)
-* [使用私密数据](tutorials/upgrade_network.md)
-* [chaincode指南](tutorials/chaincode_tutorials.md)
-* [chaincode开发者](tutorials/chaincode_developer.md)
+## Part III 教程指南
+* [Hello Fabric第一个应用](part3/helloworld.md)
+* [建立第一个网络](part3/build_first_network.md)
+* [向通道添加一个组织](part3/add_org.md)
+* [升级网络组件](part3/upgrade_network.md)
+* [使用私密数据](part3/upgrade_network.md)
+* [chaincode指南](part3/chaincode_tutorials.md)
+* [chaincode开发者](part3/chaincode_developer.md)
 
 -----
-* [Last part without title](part3/title.md)
+* [Last part without title](foot/footer.md)
 
