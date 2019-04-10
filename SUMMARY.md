@@ -1,7 +1,8 @@
 # Summary
 
 ## Part I 概述
-* [简介](README.md)
+* [Introduction](README.md)
+* [简介](part1/introduce.md)
 * [V1.4变化](part1/changes.md)
 * [发行手记](part1/release_note.md)
 * [重要概念](part1/key_concept.md)
