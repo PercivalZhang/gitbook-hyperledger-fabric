@@ -422,3 +422,6 @@ Chaincode通过调用GetCreator()方法，利用客户端（提交者）的证�
 
 ### Chaincode加密
 
+特定场景下，针对一个键对应的值进行部分或者全部加密，十分有用。例如，如果一个人的社会保险号码或者家庭住址被写入账本，然后你很可能不希望这种信息以明文的方式出现。Chaincode加密是利用[entities extension](https://github.com/hyperledger/fabric/tree/master/core/chaincode/shim/ext/entities)来实现的。entities extension封装了商品工厂以及相应的方法，比如加密和椭圆曲线数字签名等，来执行密码学相关的操作。举个例子：为了加密，chaincode调用者必须通过临时字段，传入一个密码学的key，这个key可以用于后续的查询，以及对加密状态数据进行正确的解密。
+
+更多的信息和例子，可以参考`fabric/examples`目录下的[Encc例子](https://github.com/hyperledger/fabric/tree/master/examples/chaincode/go/enccc_example)。特别要注意`utils.go`这个助手程序，它会加载chaincode shim APIs和Entities扩展，并且生成一类新的方法（例如：`encryptAndPutState`和`getStateAndDecrypt`），供chaincode加密示例代码调用。通过这种方式，chaincode就能赋予基础版shim APIs中的`Get`和`Put`以加密和解密的功能。
