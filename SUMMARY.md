@@ -1,30 +1,39 @@
 # Summary
 
-## Part I 概述
 * [Introduction](README.md)
-* [简介](part1/introduce.md)
-* [V1.4变化](part1/changes.md)
-* [发行手记](part1/release_note.md)
-* [重要概念](part1/key_concept.md)
-* [开始](part1/get_started.md)
-
-## Part II 开发应用
-* [场景](part2/scenario.md)
-* [分析](part2/analysis.md)
-* [流程和数据设计](part2/process_data.md)
-* [智能合约处理](part2/smart_contract_process.md)
-* [应用程序](part2/application.md)
-* [接口](part2/interface.md)
-* [应用程序设计要素](part2/app_design_elements.md)
-
-## Part III 教程指南
-* [Hello Fabric第一个应用](part3/helloworld.md)
-* [建立第一个网络](part3/build_first_network.md)
-* [向通道添加一个组织](part3/add_org.md)
-* [升级网络组件](part3/upgrade_network.md)
-* [使用私密数据](part3/upgrade_network.md)
-* [chaincode指南](part3/chaincode_tutorials.md)
-* [chaincode开发者](part3/chaincode_developer.md)
+* [简介](introduce.md)
+* [V1.4变化](changes.md)
+* [发行手记](release_note.md)
+* [重要概念](key_concepts/catalog.md)
+    * [简介](key_concepts/introduction.md)
+    * [超级账本功能点](key_concepts/functionalities.md)
+    * [超级账本模型](key_concepts/model.md)
+    * [区块链网络](key_concepts/network.md)
+    * [身份识别](key_concepts/identity.md)
+    * [成员](key_concepts/membership.md)
+    * [Peers节点](key_concepts/peers.md)
+    * [智能合约和Chaincode](key_concepts/smart_contract.md)
+    * [账本](key_concepts/ledger.md)
+    * [排序服务](key_concepts/ordering_service.md)
+    * [私密数据](key_concepts/private_data.md)
+    * [用例](key_concepts/use_cases.md)
+* [开始](get_started.md)
+* 开发应用
+    * [场景](app_dev/scenario.md)
+    * [分析](app_dev/analysis.md)
+    * [流程和数据设计](app_dev/process_data.md)
+    * [智能合约处理](app_dev/smart_contract_process.md)
+    * [应用程序](app_dev/application.md)
+    * [接口](app_dev/interface.md)
+    * [应用程序设计要素](app_dev/app_design_elements.md)
+* 教程指南
+    * [Hello Fabric第一个应用](tutorials/helloworld.md)
+    * [建立第一个网络](tutorials/build_first_network.md)
+    * [向通道添加一个组织](tutorials/add_org.md)
+    * [升级网络组件](tutorials/upgrade_network.md)
+    * [使用私密数据](tutorials/upgrade_network.md)
+    * [chaincode指南](tutorials/chaincode_tutorials.md)
+    * [chaincode开发者视角](tutorials/chaincode_developer.md)
 
 -----
 * [Last part without title](foot/footer.md)
