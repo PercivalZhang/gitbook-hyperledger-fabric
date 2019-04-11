@@ -1,4 +1,4 @@
-# chaincode开发者
+# chaincode开发者视角
 
 ## 什么是Chaincode
 
