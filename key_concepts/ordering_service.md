@@ -24,7 +24,7 @@ Orderer节点也被赋予了对于通道的基本访问控制，比如限制谁�
 
 关于身份识别和MSPs的更多信息，
 
-请参见文档[Identity](https://hyperledger-fabric.readthedocs.io/en/release-1.4/identity/identity.html)和[Membership](https://hyperledger-fabric.readthedocs.io/en/release-1.4/membership/membership.html)。
+请参见文档[Identity](identity.html)和[Membership](membership.html)。
 
 像peer节点一样，orderer节点也隶属于一个组织。每一个组织都有一个单独的CA证书。可以每个组织都有一个root CA，或者统一部署一个root CA，再从该root CA衍生出CA，分配给每个组织。
 
