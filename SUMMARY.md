@@ -31,7 +31,7 @@
     * [建立第一个网络](tutorials/build_first_network.md)
     * [向通道添加一个组织](tutorials/add_org.md)
     * [升级网络组件](tutorials/upgrade_network.md)
-    * [使用私密数据](tutorials/upgrade_network.md)
+    * [使用私密数据](tutorials/private_data.md)
     * [chaincode指南](tutorials/chaincode_tutorials.md)
     * [chaincode开发者视角](tutorials/chaincode_developer.md)
 
